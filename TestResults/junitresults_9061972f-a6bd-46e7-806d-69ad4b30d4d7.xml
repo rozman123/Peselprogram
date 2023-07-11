@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="2" time="0.038" timestamp="2023-05-01T12:25:30.923660" hostname="Rześnik"><testcase classname="Classes_test" name="test_spr_PESEL" file="Classes_test.py" line="5" time="0.002"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+Wartoci: 59242652166, Katarzyna. Expected: True got False
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="Classes_test" name="test_spr_PESEL2" file="Classes_test.py" line="15" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase></testsuite></testsuites>

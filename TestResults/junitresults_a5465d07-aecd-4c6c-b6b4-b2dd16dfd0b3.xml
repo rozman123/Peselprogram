@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="0.134" timestamp="2023-05-02T13:58:41.049269" hostname="Rześnik"><testcase classname="Classes_test" name="test_spr_PESEL" file="Classes_test.py" line="5" time="0.002"><failure message="AttributeError: 'method_descriptor' object has no attribute 'today'">def test_spr_PESEL():
+        try:
+            file=open('t_pesele.txt',"r")
+            for linia in file.read().split('\n'):
+                nr,imie,wynik=linia.split(' ')
+&gt;               wynik_funkcji=str(c.UI.spr_PESEL(nr,imie))
+
+Classes_test.py:11: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+Classes.py:58: in spr_PESEL
+    elif(not cls.spr_czy_urodzony(PESELx)):
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+cls = &lt;class 'Classes.UI'&gt;, PESELx = '43031341232'
+
+    @classmethod
+    def spr_czy_urodzony(cls,PESELx):
+&gt;       Data_dzis=datetime.date.today()
+E       AttributeError: 'method_descriptor' object has no attribute 'today'
+
+Classes.py:83: AttributeError</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase></testsuite></testsuites>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="7" time="0.069" timestamp="2023-05-26T15:23:28.512803" hostname="Rześnik"><testcase classname="Classes_test" name="test_Constructor_Osoba1" file="Classes_test.py" line="19" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="Classes_test" name="test_Constructor_Osoba2" file="Classes_test.py" line="27" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="Classes_test" name="test_change_city" file="Classes_test.py" line="50" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="Classes_test" name="test_change_last_name" file="Classes_test.py" line="44" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="Classes_test" name="test_change_name" file="Classes_test.py" line="38" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="Classes_test" name="test_nrPESEL" file="Classes_test.py" line="56" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="Classes_test" name="test_spr_PESEL" file="Classes_test.py" line="6" time="0.003"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+Ta osoba siê jeszcze nie urodzi³a!!
+B³êdny nr. Kontrolny PESELu!!
+B³êdny nr. p³ci!!
+B³êdny nr. Kontrolny PESELu!!
+B³êdny nr. p³ci!!
+B³êdny nr. Miesi¹ca i stulecia!!
+
+B³êdny nr. Miesi¹ca i stulecia!!
+
+B³êdny nr. Kontrolny PESELu!!
+B³êdny nr. p³ci!!
+B³êdny nr. p³ci!!
+B³êdny nr. Miesi¹ca i stulecia!!
+
+B³êdny nr. p³ci!!
+B³êdny nr. p³ci!!
+B³êdny nr. p³ci!!
+B³êdny nr. Miesi¹ca i stulecia!!
+
+B³êdny nr. Kontrolny PESELu!!
+B³êdny nr. Miesi¹ca i stulecia!!
+
+B³êdny nr. Kontrolny PESELu!!
+B³êdny nr. Miesi¹ca i stulecia!!
+
+B³êdny nr. Kontrolny PESELu!!
+Ta osoba siê jeszcze nie urodzi³a!!
+B³êdna d³. PESELu:213984237429!!
+
+B³êdna d³. PESELu:43345253453535!!
+
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase></testsuite></testsuites>

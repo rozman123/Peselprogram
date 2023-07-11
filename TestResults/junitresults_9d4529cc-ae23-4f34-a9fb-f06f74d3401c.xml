@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="2" time="0.138" timestamp="2023-05-01T12:11:42.233247" hostname="Rześnik"><testcase classname="Classes_test" name="test_spr_PESEL" file="Classes_test.py" line="5" time="0.002"><failure message="Failed: DID NOT RAISE &lt;class 'Exception'&gt;">def test_spr_PESEL():
+        file=open('t_pesele.txt',"r")
+        for linia in file.read().split('\n'):
+            nr,imie,wynik=linia.split(' ')
+            with pytest.raises(Exception):
+&gt;               assert wynik == str(c.UI.spr_PESEL(nr,imie))
+E               Failed: DID NOT RAISE &lt;class 'Exception'&gt;
+
+Classes_test.py:11: Failed</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="Classes_test" name="test_spr_PESEL2" file="Classes_test.py" line="12" time="0.002"><failure message="AssertionError: assert False == True&#10; +  where True = &lt;bound method UI.spr_PESEL of &lt;class 'Classes.UI'&gt;&gt;(43031341232, 'Marek')&#10; +    where &lt;bound method UI.spr_PESEL of &lt;class 'Classes.UI'&gt;&gt; = &lt;class 'Classes.UI'&gt;.spr_PESEL&#10; +      where &lt;class 'Classes.UI'&gt; = c.UI">def test_spr_PESEL2():
+&gt;           assert False == c.UI.spr_PESEL(43031341232,'Marek')
+E           AssertionError: assert False == True
+E            +  where True = &lt;bound method UI.spr_PESEL of &lt;class 'Classes.UI'&gt;&gt;(43031341232, 'Marek')
+E            +    where &lt;bound method UI.spr_PESEL of &lt;class 'Classes.UI'&gt;&gt; = &lt;class 'Classes.UI'&gt;.spr_PESEL
+E            +      where &lt;class 'Classes.UI'&gt; = c.UI
+
+Classes_test.py:14: AssertionError</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase></testsuite></testsuites>

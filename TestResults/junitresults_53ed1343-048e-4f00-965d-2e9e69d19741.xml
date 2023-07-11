@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="2" time="0.135" timestamp="2023-05-01T12:12:02.816607" hostname="Rześnik"><testcase classname="Classes_test" name="test_spr_PESEL" file="Classes_test.py" line="5" time="0.001"><failure message="AssertionError: assert 'True' == 'False'&#10;  - False&#10;  + True">def test_spr_PESEL():
+        file=open('t_pesele.txt',"r")
+        for linia in file.read().split('\n'):
+            nr,imie,wynik=linia.split(' ')
+&gt;           assert wynik == str(c.UI.spr_PESEL(nr,imie))
+E           AssertionError: assert 'True' == 'False'
+E             - False
+E             + True
+
+Classes_test.py:10: AssertionError</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="Classes_test" name="test_spr_PESEL2" file="Classes_test.py" line="11" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase></testsuite></testsuites>

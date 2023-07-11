@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="0.160" timestamp="2023-05-02T12:49:02.355711" hostname="Rześnik"><testcase classname="Classes_test" name="test_spr_PESEL" file="Classes_test.py" line="5" time="0.022"><failure message="AssertionError">def test_spr_PESEL():
+        try:
+            file=open('t_pesele.txt',"r")
+            for linia in file.read().split('\n'):
+                nr,imie,wynik=linia.split(' ')
+                wynik_funkcji=str(c.UI.spr_PESEL(nr,imie))
+&gt;               assert wynik == wynik_funkcji
+E               AssertionError: assert 'True' == 'False'
+E                 - False
+E                 + True
+
+Classes_test.py:12: AssertionError
+
+During handling of the above exception, another exception occurred:
+
+    def test_spr_PESEL():
+        try:
+            file=open('t_pesele.txt',"r")
+            for linia in file.read().split('\n'):
+                nr,imie,wynik=linia.split(' ')
+                wynik_funkcji=str(c.UI.spr_PESEL(nr,imie))
+                assert wynik == wynik_funkcji
+        except(AssertionError):
+            print(f'Wartoci: {nr}, {imie}. Expected: {wynik} got {wynik_funkcji}')
+&gt;           raise AssertionError
+E           AssertionError
+
+Classes_test.py:15: AssertionError</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+B³êdny nr. Kontrolny PESELu!!
+Wartoci: 43031341232, Marek. Expected: True got False
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase></testsuite></testsuites>

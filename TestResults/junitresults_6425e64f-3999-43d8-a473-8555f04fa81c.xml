@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="2" time="0.167" timestamp="2023-05-01T12:19:56.216990" hostname="Rześnik"><testcase classname="Classes_test" name="test_spr_PESEL" file="Classes_test.py" line="5" time="0.003"><failure message="AssertionError: assert 'True' == 'False'&#10;  - False&#10;  + True">def test_spr_PESEL():
+        file=open('t_pesele.txt',"r")
+        for linia in file.read().split('\n'):
+            nr,imie,wynik=linia.split(' ')
+            temp=str(c.UI.spr_PESEL(nr,imie))
+            print(f'Wartoci: {nr}, {imie}. Expected: {wynik} got {temp}')
+&gt;           assert wynik == temp
+E           AssertionError: assert 'True' == 'False'
+E             - False
+E             + True
+
+Classes_test.py:12: AssertionError</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+Wartoci: 43031341232, Marek. Expected: True got True
+Wartoci: 59242652166, Katarzyna. Expected: True got False
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="Classes_test" name="test_spr_PESEL2" file="Classes_test.py" line="13" time="0.001"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase></testsuite></testsuites>

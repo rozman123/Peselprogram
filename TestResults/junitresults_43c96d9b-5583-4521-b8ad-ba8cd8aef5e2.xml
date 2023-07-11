@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="0.030" timestamp="2023-05-02T13:19:44.226146" hostname="Rześnik"><testcase classname="Classes_test" name="test_spr_PESEL" file="Classes_test.py" line="5" time="0.002"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+B³êdny nr. Kontrolny PESELu!!
+B³êdny nr. p³ci!!
+B³êdny nr. Kontrolny PESELu!!
+B³êdny nr. p³ci!!
+B³êdny nr. Miesi¹ca i stulecia!!
+
+B³êdny nr. Miesi¹ca i stulecia!!
+
+B³êdny nr. Kontrolny PESELu!!
+B³êdny nr. p³ci!!
+B³êdny nr. p³ci!!
+B³êdny nr. Miesi¹ca i stulecia!!
+
+B³êdny nr. p³ci!!
+B³êdny nr. p³ci!!
+B³êdny nr. p³ci!!
+B³êdny nr. Miesi¹ca i stulecia!!
+
+B³êdny nr. Kontrolny PESELu!!
+B³êdny nr. Miesi¹ca i stulecia!!
+
+B³êdny nr. Kontrolny PESELu!!
+B³êdny nr. Miesi¹ca i stulecia!!
+
+B³êdny nr. Kontrolny PESELu!!
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase></testsuite></testsuites>

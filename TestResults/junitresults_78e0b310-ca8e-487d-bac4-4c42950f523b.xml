@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="0.138" timestamp="2023-05-01T12:04:27.449945" hostname="Rześnik"><testcase classname="Classes_test" name="test_spr_PESEL" file="Classes_test.py" line="5" time="0.001"><failure message="Failed: DID NOT RAISE &lt;class 'Exception'&gt;">def test_spr_PESEL():
+        file=open('t_pesele.txt',"r")
+        for linia in file.read().split('\n'):
+            nr,imie,wynik=linia.split(' ')
+            with pytest.raises(Exception):
+&gt;               assert bool(wynik) == c.UI.spr_PESEL(nr,imie)
+E               Failed: DID NOT RAISE &lt;class 'Exception'&gt;
+
+Classes_test.py:11: Failed</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase></testsuite></testsuites>
